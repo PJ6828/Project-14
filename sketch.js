@@ -87,15 +87,12 @@ function draw() {
     boy.destroy();
     path.velocityY = 0;
     gameOver.visible = true;
-    fill("white");
-    textSize(20);
-    text("Press space to restart",50,200);
   }
 
   drawSprites();
   textSize(20);
   fill(255);
-  text("Treasure: $"+ score,150,30);
+  text("Treasure: $"+ score,10,30);
 
 }
 
