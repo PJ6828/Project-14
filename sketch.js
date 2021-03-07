@@ -92,7 +92,7 @@ function draw() {
   drawSprites();
   textSize(20);
   fill(255);
-  text("Treasure: $"+ score,10,30);
+  text("Treasure:- $"+ score,10,30);
 
 }
 
