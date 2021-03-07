@@ -87,6 +87,9 @@ function draw() {
     boy.destroy();
     path.velocityY = 0;
     gameOver.visible = true;
+    fill("white");
+    textSize(20);
+    text("Press space to restart",50,200);
   }
 
   drawSprites();
